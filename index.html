@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calorie & Water Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Calorie & Water Counter</h1>
+
+  <div>
+    <h2>Calorie Tracker</h2>
+    <input id="calInput" type="number" placeholder="Enter calories (e.g. 250)">
+    <button onclick="addCalories()">Add</button>
+    <p>Total Calories: <span id="calTotal">0</span></p>
+  </div>
+
+  <hr>
+
+  <div>
+    <h2>Water Tracker</h2>
+    <button onclick="addWater()">+1 Glass (250ml)</button>
+    <p>Total Glasses: <span id="waterTotal">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
